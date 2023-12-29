@@ -1,6 +1,0 @@
-require("jar.set")
-require("jar.remap")
-require("jar.lualine")
-require("jar.cmp")
-require("jar.treesitter")
-require("jar.lsp")
