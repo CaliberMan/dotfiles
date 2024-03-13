@@ -25,6 +25,7 @@ configuration{
     kb-remove-char-back: "BackSpace";
     kb-move-char-forward: "Control+f";
     kb-mode-complete: "Control+o";
+    font: "Jetbrains Mono 12";
 }
 //@theme "/usr/share/rofi/themes/tokyonight.rasi"
 @theme "/usr/share/rofi/themes/tokyonight.rasi"
