@@ -21,7 +21,7 @@ function untar() {
 
 function connect() {
     num=1
-    while [ num -ne 0 ]; do
+    while [ "$num" -ne 0 ]; do
         nmcli device wifi connect 'Galaxy A52s 5G5925' password dtbq4516
         num=$?
     done

@@ -13,6 +13,7 @@ alias tes="tmux attach-session -t"
 # quick files
 alias comms="nvim ~/.oh-my-zsh/plugins/archlinux/archlinux.plugin.zsh"
 alias zshrc="nvim ~/.zshrc"
+alias i3conf="nvim ~/.config/i3/config"
 
 alias ggraphs="cd ~/ING1/math/GRAPH/theg-student-english/code/"
 alias progg="cd ~/ING1/prog/"
@@ -29,10 +30,8 @@ alias gg="lazygit"
 # clang format
 alias form="files=$(find . -name "*.[ch]"); clang-format -i $files"
 
-# 42sh
+#tiger
+alias tig="./rtc -o result "
 alias auto="autoreconf --install"
 alias conf="./configure"
 alias clean="make maintainer-clean-recursive"
-
-#tiger
-alias tig="./rtc -o result "
