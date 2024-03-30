@@ -9,6 +9,7 @@ These are my dotfiles I have created over time.
     - Alacritty
     - Betterlockscreen
     - Rofi
+    - Polybar
 
 One of the two window managers I have used so far. This dot file includes patches
 for useless gap, and other asthetic patches.

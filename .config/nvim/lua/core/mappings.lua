@@ -52,6 +52,8 @@ M.general = {
       end,
       "LSP formatting",
     },
+
+    ["<leader>bd"] = { "<cmd> bd <CR>", "Close this buffer" }
   },
 
   t = {

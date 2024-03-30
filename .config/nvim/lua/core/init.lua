@@ -133,6 +133,14 @@ vim.api.nvim_create_autocmd({ "UIEnter", "BufReadPost", "BufNewFile" }, {
   end,
 })
 
+vim.api.nvim_create_autocmd("VimEnter", {
+  callback = function()
+    if vim.fn.argv(0) == "" then
+      require("telescope.builtin").find_files()
+    end
+  end,
+})
+
 -------------------------------------- commands ------------------------------------------
 local new_cmd = vim.api.nvim_create_user_command
 
